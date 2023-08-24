@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sentiment Analysis Flask App</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <h1>Sentiment Analysis Flask App</h1>
+  <form id="text-form">
+    <label for="user_input">Enter text for sentiment analysis:</label>
+    <textarea id="user_input" name="user_input" rows="4" cols="50"></textarea>
+    <button type="submit">Analyze Sentiment</button>
+  </form>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
